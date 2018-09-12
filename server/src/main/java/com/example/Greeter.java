@@ -14,7 +14,8 @@ public class Greeter {
 
 
   /**
-   * This is a function.
+   * @param someone's nmae
+   * @return greeting 
    */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
